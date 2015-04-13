@@ -44,7 +44,8 @@ public class KBaseTitleUI extends RelativeLayout {
 
     protected void initTitle(Context context) {
 
-        LayoutParams textLayout = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        LayoutParams textLayout = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT);
         textLayout.addRule(CENTER_IN_PARENT);
 
         titleText = new TextView(context);

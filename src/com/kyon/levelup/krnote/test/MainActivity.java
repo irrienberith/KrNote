@@ -30,6 +30,7 @@ public class MainActivity extends Activity {
         titleUI.setBackgroundColor(Color.CYAN);
         titleUI.setTitleText("DEMO");
 
+
         root.addView(titleUI);
 
         setContentView(root);
